@@ -1,0 +1,19 @@
+
+= Expense API Guide
+Expense also known as config service. It hold the metadata/config required across different services.;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+[[resources-get-metadata]]
+== Getting All Expenses
+
+
+=== By Group and Name
+
+A `GET` request used to get /expenses.
+
+A `POST` request used to save /expense.
