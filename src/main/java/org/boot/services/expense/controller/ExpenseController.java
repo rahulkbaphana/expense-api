@@ -16,7 +16,6 @@ import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toList;
 
-@CrossOrigin
 @RestController
 public class ExpenseController {
 
