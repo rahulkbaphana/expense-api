@@ -4,6 +4,7 @@ import org.boot.services.expense.model.Expense;
 import org.boot.services.expense.model.ExpenseView;
 import org.boot.services.expense.repository.ExpenseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
